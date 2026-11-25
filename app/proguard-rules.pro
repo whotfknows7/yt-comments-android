@@ -1,0 +1,4 @@
+-keepattributes Signature, *Annotation*
+-keep class com.whotfknows7.ytcomments.data.** { *; }
+-dontwarn retrofit2.**
+-keep class retrofit2.** { *; }
